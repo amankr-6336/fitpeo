@@ -1,9 +1,9 @@
 import React from "react";
-import { FaBucket } from "react-icons/fa6";
-import { RiArrowUpSFill } from "react-icons/ri";
+
+
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./DashInfo.scss";
-import { IoIosAddCircle } from "react-icons/io";
+
 
 
 
