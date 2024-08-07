@@ -32,7 +32,7 @@ const options = {
       display: false, 
     },
     tooltip: {
-      enabled: true,
+      enabled: false,
     },
   },
   cutout: "70%", 
@@ -44,7 +44,7 @@ function DonutChart() {
   return (
     <div className="chart" style={{ position:"relative"  ,width:"100%" ,height:"95%" ,display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column", gap:"5px"}}>
       <Doughnut data={data} options={options} />
-      <span style={{position:"absolute" ,width:"50%" ,height:"50%"}}><h3 style={{color:"#FBFCFF" ,textAlign:"center" ,marginBottom:"5px"}}>75%</h3><p style={{color:"#FBFCFF",fontSize:"0.6rem",fontWeight:"500",textAlign:"center"}}>Goal Completed</p></span>
+      <span style={{position:"absolute" ,width:"50%" ,height:"50%"}}><h3 style={{color:"#FBFCFF" ,textAlign:"center" ,marginBottom:"5px"}}>75%</h3><p style={{color:"#FBFCFF",fontSize:"0.5rem",fontWeight:"500",textAlign:"center"}}>Goal Completed</p></span>
       <div className="remark" style={{height:"5%",width:"100%",fontSize:"0.6rem", color:"#C3c4ca"}}>
       <p>*The values are rounded off.</p>
       </div> 
