@@ -1,0 +1,49 @@
+.analysis-aa{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-aa{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      
+        gap: 20px;
+        .aa-icon{
+          width: 60px;
+          height: 60px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 1.6rem;
+        }
+        p{
+            font-weight: 500;
+            color: #D3D4DA;
+            font-size: 0.9rem;
+        }
+    }
+
+    .right-aa{
+       width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #454749;
+            color: #D3D4DA;
+        }
+    }
+}
